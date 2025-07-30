@@ -53,52 +53,52 @@ const AppRoutes = () => (
       </PrivateAuthRoute>
     } />
     <Route path="/edit-order/:id" element={
-      <PrivateAuthRoute roles={[2, 3]}>
+      <PrivateAuthRoute roles={[1, 4]}>
         <OrderUpdate />
       </PrivateAuthRoute>
     } />
     <Route path="/new-order" element={
-      <PrivateAuthRoute roles={[2, 3]}>
+      <PrivateAuthRoute roles={[1, 4]}>
         <NewOrder />
       </PrivateAuthRoute>
     } />
     <Route path="/add-employee" element={
-      <PrivateAuthRoute roles={[3]}>
+      <PrivateAuthRoute roles={[4]}>
         <AddEmployee />
       </PrivateAuthRoute>
     } />
     <Route path="/employees" element={
-      <PrivateAuthRoute roles={[2, 3]}>
+      <PrivateAuthRoute roles={[1, 4]}>
         <Employees />
       </PrivateAuthRoute>
     } />
     <Route path="/edit-employee/:id" element={
-      <PrivateAuthRoute roles={[3]}>
+      <PrivateAuthRoute roles={[4]}>
         <EmployeeUpdate />
       </PrivateAuthRoute>
     } />
     <Route path="/add-customer" element={
-      <PrivateAuthRoute roles={[2, 3]}>
+      <PrivateAuthRoute roles={[1, 4]}>
         <AddCustomer />
       </PrivateAuthRoute>
     } />
     <Route path="/customers" element={
-      <PrivateAuthRoute roles={[2, 3]}>
+      <PrivateAuthRoute roles={[1, 4]}>
         <Customers />
       </PrivateAuthRoute>
     } />
     <Route path="/edit-customer/:id" element={
-      <PrivateAuthRoute roles={[2, 3]}>
+      <PrivateAuthRoute roles={[1, 4]}>
         <CustomerUpdate />
       </PrivateAuthRoute>
     } />
     <Route path="/edit-vehicle/:customer_id/:vehicle_id" element={
-      <PrivateAuthRoute roles={[2, 3]}>
+      <PrivateAuthRoute roles={[1, 4]}>
         <VehicleUpdate />
       </PrivateAuthRoute>
     } />
     <Route path="/customer-profile/:id" element={
-      <PrivateAuthRoute roles={[2, 3]}>
+      <PrivateAuthRoute roles={[1, 4]}>
         <CustomerProfile />
       </PrivateAuthRoute>
     } />
@@ -108,17 +108,17 @@ const AppRoutes = () => (
       </PrivateAuthRoute>
     } />
     <Route path="/edit-service/:id" element={
-      <PrivateAuthRoute roles={[3]}>
+      <PrivateAuthRoute roles={[4]}>
         <ServiceUpdate />
       </PrivateAuthRoute>
     } />
     <Route path="/admin-dashboard" element={
-      <PrivateAuthRoute roles={[3]}>
-        <admin-dashboard/>
+      <PrivateAuthRoute roles={[4]}>
+        <AdminDashboard />
       </PrivateAuthRoute>
     } />
     <Route path="/employee-dashboard" element={
-      <PrivateAuthRoute roles={[2]}>
+      <PrivateAuthRoute roles={[1]}>
         <EmployeeDashboard />
       </PrivateAuthRoute>
     } />
