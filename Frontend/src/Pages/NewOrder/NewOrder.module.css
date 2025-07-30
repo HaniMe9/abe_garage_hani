@@ -1,0 +1,343 @@
+.container {
+  background-color: #E6E4E9;
+}
+
+.orderList {
+  padding: 2vw;
+}
+
+.orderList h2 {
+  font-size: clamp(1.1em, 3vw, 1.8em);
+  font-weight: bold;
+  color: #07184A;
+}
+
+.orderList span {
+  color: #d82323;
+  cursor: pointer;
+}
+
+.searchBar {
+  max-width: 40em;
+  padding: 1vw 0 0 2vw;
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+}
+
+.searchIcon {
+  background-color: #FFFFFF;
+  display: flex;
+  border-radius: .4em;
+}
+
+.searchBar input {
+  width: 100%;  
+  border: none;
+  padding: .5em 1em;
+  font-size: clamp(.9em, 3vw, 1.1em);
+  border-top-left-radius: .4em;
+  border-bottom-left-radius: .4em;
+}
+
+.searchBar input:focus {
+  outline: none;
+}
+
+.searchBar input::placeholder {
+  font-size: clamp(.9em, 3vw, 1.1em);
+}
+
+.searchBar span {
+  background-color: #d82323;
+  color: #FFFFFF;
+  padding: .4em 1em;
+  font-size: clamp(.9em, 3vw, 1.1em);
+  border-top-right-radius: .4em;
+  border-bottom-right-radius: .4em;
+}
+
+.addButton {
+  width: 100%;
+  padding: .5em;
+  background-color: #d82323;
+  color: white;
+  font-size: clamp(.9em, 3vw, 1.1em);
+  font-weight: bold;
+  border: none;
+  border-radius: .4em;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.addButton:hover {
+  background-color: #07184A;
+}
+
+.tableContainer {
+  display: block;
+  width: 100%;
+  margin: 3vw 0;
+  overflow-x: auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.customerTable, .vehicleTable {
+  width: 100%;
+  border-collapse: collapse;
+  white-space: nowrap;
+  /* margin: 2vw 0; */
+  /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.customerTable thead, .vehicleTable thead {
+  background-color: #f7f8fa;
+}
+
+.customerTable th, .customerTable td, .vehicleTable th, .vehicleTable td {
+  text-align: left;
+  padding: .5em;
+  border: 1px solid #d6cfcf;
+}
+
+.customerTable th {
+  font-size: clamp(.9em, 3vw, 1.1em);
+  font-weight: bold;
+}
+
+.customerTable td {
+  font-size: clamp(.8em, 3vw, 1em);
+}
+
+.customerTable tbody tr:hover, .vehicleTable tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.customerTable button, .vehicleTable button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.customerTable button:hover, .vehicleTable button:hover { 
+  color: #d82323;
+}
+
+.noResults {
+  padding : 2vw;
+  font-size: clamp(.9em, 3vw, 1.1em);
+  font-weight: bold;
+  color: #d82323;
+}
+
+.customerInfo, .vehicleInfo {
+  background-color: #FFFFFF ;
+  padding: 1vw;
+  margin: 2vw 0;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+}
+
+.serviceInfo {
+  background-color: #FFFFFF ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vw;
+  margin: 1vw 0;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+  word-break: break-word;
+}
+
+.customerDetails, .vehicleDetails { 
+  margin-left: 1em;  
+}
+
+.customerInfo h3, .vehicleInfo h3, .serviceInfo h3 {
+  font-size: clamp(1em, 3vw, 1.3em);
+  font-weight: bold;
+  color: #07184A;
+  margin-bottom: .2em;
+}
+
+.customerInfo strong, .vehicleInfo strong {
+  font-size: clamp(.9em, 3vw, 1.1em);
+  color: #07184A;
+}
+
+.customerInfo p, .vehicleInfo p, .serviceInfo p {
+  font-size: clamp(.9em, 3vw, 1.1em);
+  margin-bottom: .01em;
+}
+
+.closeButton {
+  float: right;
+  background-color: #d82323;
+  color: #FFFFFF;
+  padding: 0 .6em;
+  font-size: clamp(.9em, 3vw, 1.1em);
+  border: none;
+  border-radius: .4em;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.closeButton:hover {
+  background-color: #07184A;
+}
+
+.vehicleTable th {
+  font-size: clamp(.9em, 3vw, 1.1em);
+  font-weight: bold;
+}
+
+.vehicleTable td {
+  font-size: clamp(.8em, 3vw, 1em);
+}
+
+.services, .orderForm {
+  background-color: #FFFFFF;
+  padding: 2vw;
+  margin-bottom: 2vw;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+}
+
+.serviceInfo input {
+  transform: scale(clamp(.9em, 3vw, 1.1em));
+  margin-left: 1em;
+}
+
+.orderInfo {
+  max-width: 40em;
+}
+
+.orderForm input {
+    width: 100%;
+    padding: .5em;
+    margin-bottom: 1.5vw;
+    font-size: clamp(.9em, 3vw, 1.1em);
+    border: 1px solid #ccc;
+    border-radius: .4em;
+    transition: border-color 0.2s ease-in-out;
+}
+
+.orderForm input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.orderForm textarea {
+  width: 100%;
+  height: 8em;
+  padding: .5em;
+  margin: 1.5vw 0;
+  font-size: clamp(.9em, 3vw, 1.1em);
+  border: 1px solid #ccc;
+  border-radius: .4em;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.orderForm textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.orderForm input::placeholder, .orderForm textarea::placeholder {
+    font-size: clamp(.9em, 3vw, 1.1em);
+}
+
+.orderForm button, .noResults button {
+    width: 100%;
+    padding: .5em;
+    margin: 1em 0;
+    background-color: #d82323;
+    color: white;
+    font-size: clamp(.9em, 3vw, 1.1em);
+    font-weight: bold;
+    border: none;
+    border-radius: .4em;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.orderForm button:hover, .noResults button:hover {
+    background-color: #07184A;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0;
+}
+
+.pagination button{
+    width: 7em;
+    font-size: clamp(.9em, 3vw, 1.1em);
+    border: none;
+    border-radius: .4em;
+    background-color: #d82323;
+    color: #FFFFFF;
+    padding: .3em 1em;
+    cursor: pointer;
+}
+
+.pagination button:hover {
+    background-color: #07184A;
+}
+
+.pagination button:disabled {
+    background-color: #d6cfcf;
+    cursor: not-allowed;
+}
+
+.pagination span {
+    color: #1D2230;
+    font-size: clamp(.9em, 3vw, 1.1em);
+    margin: 0 1em;
+}
+
+.popup {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .5em;
+}
+
+.icon {
+  font-size: clamp(.5em, 2vw, 1em);
+  margin: 0 auto;
+}
+
+.errorTitle {
+  font-size: clamp(1.2em, 3vw, 1.8em);
+  padding: 0;
+  color: #d82323;
+}
+
+.successTitle {
+  font-size: clamp(1.2em, 3vw, 1.8em);
+  padding: 0;
+  color: #A5DC86;
+}
+
+.text {
+  font-size: clamp(.9em, 3vw, 1.1em);
+  padding: 0;
+  font-weight: bold;
+}
+
+.confirmButton {
+  padding: .4em 3em;  
+  margin: 0;
+  background-color: #07184A;
+  color: white;
+  font-size: clamp(.9em, 3vw, 1.1em);
+  font-weight: bold;
+  border-radius: .4em;
+  cursor: pointer;
+}
+
+.confirmButton:hover {
+  background-color: #d82323;
+}

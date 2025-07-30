@@ -1,0 +1,46 @@
+.dashboard {
+  background-color: #E6E4E9;
+}
+
+.main {
+  padding:4vw;
+}
+
+.main h1 {
+  font-size: clamp(1.1em, 3vw, 1.8em);
+  font-weight: bold;
+  color: #07184A;
+}
+
+.main span {
+  color: #d82323;
+}
+
+.main p {
+  font-size: clamp(.9em, 3vw, 1.1em);
+}
+
+.dashboardCard {
+    background-color: white;
+    text-align: center;
+    padding: .6vw;
+    border-radius: .4em;
+    border-bottom: .4em solid #d82323;
+}
+
+.dashboardCard h3 {
+    font-size: clamp(1em, 3vw, 1.3em);
+    font-weight: bold;
+    color: #07184A;
+}
+
+.dashboardCard p {
+    font-size: clamp(.8em, 3vw, 1em); 
+    color: #07184A;
+    margin-bottom: 0.1vw;
+}
+
+.dashboardIcon {
+    font-size: clamp(1.2em, 3vw, 1.6em);
+    margin-bottom: .2vw;
+}

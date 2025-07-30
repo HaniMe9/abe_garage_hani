@@ -1,0 +1,85 @@
+.backTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #adb3c4;
+    background-color: #30445C;
+    font-size: clamp(.9em, 3vw, 1.1em);
+    padding: .2em 0;
+    cursor: pointer;
+}
+
+.backTop:hover {
+    background-color: #485769;
+}
+
+.footer {
+    background-color: #091336;
+    color: #8993AE;
+    padding: 2vw 6vw;
+}
+
+.contactDetails {
+    border-bottom: 1px solid #8993AE;
+    justify-content: center;
+}
+
+.contactDetails div {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+} 
+
+.contactDetails i {
+    font-size: clamp(1.8em, 10vw, 2.8em);
+    color: #67283D;
+}
+
+.contactDetails p {
+    font-size: clamp(.9em, 3vw, 1.1em);
+    margin: .6em 0;
+}
+
+.contactDetails a {
+    font-weight: bold;
+}
+
+.footerBottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+.footerBottom h4 {
+    font-size: clamp(1em, 10vw, 1.3em);
+    color: #67283D;
+}
+
+.footerBottom ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footerBottom li {
+    font-size: clamp(.9em, 3vw, 1.1em);
+    margin: .2em 0;
+}
+
+.footerBottom p {
+    font-size: clamp(.9em, 3vw, 1.1em);
+}
+
+.footer a {
+    color: #8993AE;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.socialMedia a {
+    margin-right: 1em;
+    font-size: 1.6em;
+}

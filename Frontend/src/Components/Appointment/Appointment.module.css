@@ -1,0 +1,37 @@
+.appointmentSection {
+    background-color: #e6e4e9;
+    padding: 4vw 8vw;
+}
+.appointment {
+    background-color: #d82323;
+    color: white;
+    text-align: center;
+    padding: 2vw;
+}
+
+.appointment h2 {
+    font-size: clamp(1.1em, 3vw, 1.3em);
+    font-weight: bold;
+}
+
+.appointment p {
+    font-size: clamp(.9em, 3vw, 1em);
+}
+
+.contactUs {
+    width: 8em;
+    text-decoration: none;
+    font-size: clamp(.9em, 3vw, 1em);
+    font-weight: bold;
+    background-color: white;
+    color: #07184A;
+    border-radius: .4em;
+    padding: .2em;
+    margin: 1em auto;
+}
+
+.contactUs:hover {
+    color: white;
+    background-color: #07184A;
+    cursor: pointer;
+} 

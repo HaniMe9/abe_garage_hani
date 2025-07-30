@@ -1,0 +1,218 @@
+.container {
+  background-color: #E6E4E9;
+}
+
+.employeeList {
+  padding:4vw 1vw 4vw 2vw;
+}
+
+.employeeList h2 {
+  font-size: clamp(1.1em, 3vw, 1.8em);
+  font-weight: bold;
+  color: #07184A;
+}
+
+.employeeList span {
+  color: #d82323;
+}
+
+.tableContainer {
+  display: block;
+  width: 100%;
+  margin: 1vw 0;
+  overflow-x: auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  white-space: nowrap;
+}
+
+.table::-webkit-scrollbar {
+  display: none;
+}
+
+.table thead {
+  background-color: #f7f8fa;
+}
+
+.table th,
+.table td {
+  text-align: left;
+  padding: .5em;
+  border: 1px solid #d6cfcf;
+}
+
+.table th {
+  font-size: clamp(.9em, 3vw, 1.1em);
+  font-weight: bold;
+}
+
+.table td {
+  font-size: clamp(.9em, 3vw, 1.1em);
+}
+
+.table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.table button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin: 0 .2em;
+}
+
+.table button:hover {
+  color: #d82323;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0;
+}
+
+.pagination button{
+    width: 7em;
+    font-size: clamp(.9em, 3vw, 1.1em);
+    border: none;
+    border-radius: .4em;
+    background-color: #d82323;
+    color: #FFFFFF;
+    padding: .3em 1em;
+    cursor: pointer;
+}
+
+.pagination button:hover {
+    background-color: #07184A;
+}
+
+.pagination button:disabled {
+    background-color: #d6cfcf;
+    cursor: not-allowed;
+}
+
+.pagination span {
+    color: #1D2230;
+    font-size: clamp(.9em, 3vw, 1.1em);
+    margin: 0 1em;
+}
+
+.employeeList p { 
+  font-size: clamp(.9em, 3vw, 1.1em);
+  margin-bottom: 2vw;
+}
+
+.employeeList strong { 
+  font-size: clamp(.9em, 3vw, 1.1em);
+  color: #07184A;
+}
+
+.newRecipient label { 
+  font-size: clamp(.9em, 3vw, 1.1em);
+  font-weight: bold;
+  color: #07184A;
+}
+
+.newRecipient select {
+  font-size: clamp(.9em, 3vw, 1.1em);
+  padding: .2em;
+  margin-left: .5em;
+}
+
+.newRecipient div { 
+  width: 20em;
+  padding: .5em;
+  margin-top: 2vw;
+  text-align: center;
+  background-color: #d82323;
+  color: white;
+  font-size: clamp(.9em, 3vw, 1.1em);
+  font-weight: bold;
+  border: none;
+  border-radius: .4em;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.newRecipient div:hover {
+  background-color: #07184A;
+}
+
+.popup {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .5em;
+}
+
+.icon {
+  font-size: clamp(.5em, 2vw, 1em);
+  margin: 0 auto;
+}
+
+.infoTitle {  
+  font-size: clamp(1.2em, 3vw, 1.8em);
+  padding: 0;
+  color: #3FC3EE;
+}
+
+.warningTitle {
+  font-size: clamp(1.2em, 3vw, 1.8em);
+  padding: 0;
+  color: #F8BB86;
+}
+
+.errorTitle {
+  font-size: clamp(1.2em, 3vw, 1.8em);
+  padding: 0;
+  color: #d82323;
+}
+
+.successTitle {
+  font-size: clamp(1.2em, 3vw, 1.8em);
+  padding: 0;
+  color: #A5DC86;
+}
+
+.text {
+  font-size: clamp(.9em, 3vw, 1.1em);
+  padding: 0;
+  font-weight: bold;
+}
+
+.confirmButton {
+  padding: .4em 3em;  
+  margin: 0;
+  margin-right: 1em;
+  background-color: #07184A;
+  color: white;
+  font-size: clamp(.9em, 3vw, 1.1em);
+  font-weight: bold;
+  border-radius: .4em;
+  cursor: pointer;
+}
+
+.cancelButton {
+  padding: .4em 3em;  
+  margin: 0;
+  background-color: #d82323;
+  color: white;
+  font-size: clamp(.9em, 3vw, 1.1em);
+  font-weight: bold;
+  border-radius: .4em;
+  cursor: pointer;
+}
+
+.confirmButton:hover {
+  background-color: #d82323;
+}
+
+.cancelButton:hover {
+  background-color: #07184A;
+}

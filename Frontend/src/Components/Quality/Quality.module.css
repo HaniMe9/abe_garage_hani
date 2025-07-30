@@ -1,0 +1,17 @@
+.qualityService {
+    margin-bottom: 2vw;
+}
+
+.qualityService div {
+    background-color: #d82323;
+    color: white;
+}
+
+.qualityService h2 {
+    font-size: clamp(1em, 3vw, 1.6em);
+    font-weight: bold;
+}
+
+.qualityService p {
+    font-size: clamp(.9em, 3vw, 1.1em);
+}

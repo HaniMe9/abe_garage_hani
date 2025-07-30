@@ -1,0 +1,37 @@
+.whyChooseUs h2 {
+    font-size: clamp(1.1em, 3vw, 1.6em);
+    font-weight: bold;
+    color: #07184A;
+}
+
+.whyChooseUs span {
+    color:  #d82323;
+}
+
+.benefit {
+    list-style: none;
+    font-size: clamp(.9em, 3vw, 1.1em);
+    margin: .4em .8em;
+}
+
+.additionalServices h2 {
+    font-size: clamp(1.1em, 3vw, 1.6em);
+    font-weight: bold;
+    color: #07184A;
+}
+
+.additionalServices span {
+    color:  #d82323;
+}
+
+.additionalServices li {
+    list-style: none;
+    font-size: clamp(.9em, 3vw, 1.1em);
+    margin: .4em .8em;
+}
+
+.additionalServices li::before {
+    content: "✔";
+    color: #d82323;
+    margin-right: .8em;
+} 

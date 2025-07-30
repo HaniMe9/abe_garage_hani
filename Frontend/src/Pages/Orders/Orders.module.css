@@ -1,0 +1,117 @@
+.ordersContainer {
+    background-color: #E6E4E9;
+}
+
+.ordersList {
+    padding: 3vw 2vw;
+}
+
+.ordersList h2 {
+    font-size: clamp(1.1em, 3vw, 1.8em);
+    font-weight: bold;
+    color: #07184A;
+}
+
+.ordersList span {
+    color: #d82323;
+}
+
+.tableContainer {
+    display: block;
+    width: 100%;
+    margin: 2vw 0;
+    overflow-x: auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ordersTable {
+    width: 100%;
+    border-collapse: collapse;
+    white-space: nowrap;
+}
+
+.ordersTable thead {
+    background-color: #f7f8fa;
+}
+
+.ordersTable th,
+.ordersTable td {
+    text-align: left;
+    padding: .5em;
+    border: 1px solid #d6cfcf;
+}
+
+.ordersTable th {
+    font-size: clamp(.9em, 3vw, 1.1em);
+    font-weight: bold;
+}
+
+.ordersTable td {
+    font-size: clamp(.9em, 3vw, 1.1em);
+}
+
+.ordersTable tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.ordersTable button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 0 .2em;
+}
+
+.ordersTable button:hover {
+    color: #d82323;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0;
+}
+
+.pagination button {
+    width: 7em;
+    font-size: clamp(.9em, 3vw, 1.1em);
+    border: none;
+    border-radius: .4em;
+    background-color: #d82323;
+    color: #FFFFFF;
+    padding: .3em 1em;
+    cursor: pointer;
+}
+
+.pagination button:hover {
+    background-color: #07184A;
+}
+
+.pagination button:disabled {
+    background-color: #d6cfcf;
+    cursor: not-allowed;
+}
+
+.pagination span {
+    color: #1D2230;
+    font-size: clamp(.9em, 3vw, 1.1em);
+    margin: 0 1em;
+}
+
+.statusBadge {
+    color: white !important;
+    border-radius: .3em;
+    padding: .1em .6em;
+}
+
+.statusCompleted {
+    background-color: green;
+}
+
+.statusInProgress {
+    background-color: #FEC008;
+}
+
+.statusReceived {
+    background-color: #57595c;
+}

@@ -1,0 +1,49 @@
+.experience {
+    margin: 3vw 0;
+}
+
+.experience p {
+    font-size: clamp(.9em, 3vw, 1.1em);
+}
+
+.experience h2 {
+    background-color: #07184A;
+    text-align: center;
+    color: white;
+    border-radius: .4em;
+    padding: .3em;
+    font-size: clamp(1.1em, 3vw, 1.8em);
+    font-weight: bold;
+}
+
+.aboutButton {
+    text-decoration: none;
+    width: 40%;
+    display: flex;
+    margin: 0 auto;
+    padding: .3em;
+    justify-content: center;
+    background-color: #d82323;
+    color: white;
+    font-size: clamp(.8em, 3vw, 1.2em);
+    font-weight: bold;
+    border: none;
+    border-radius: .4em;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.aboutButton:hover {
+    background-color: #07184A;
+}
+
+.aboutUs {
+    background-color: #07184A;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border-radius: .4em;
+    padding: .3em;
+    margin-top: 1.4em;
+    font-size: 1.3em;
+}

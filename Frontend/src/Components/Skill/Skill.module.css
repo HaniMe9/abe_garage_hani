@@ -1,0 +1,18 @@
+.introduction h2 {
+    font-size: clamp(1.1em, 3vw, 1.8em);
+    font-weight: bold;
+    color: #07184A;
+}
+
+.introduction span {
+    color: #d82323;
+}
+
+.introduction p {
+    font-size: clamp(.9em, 3vw, 1.1em);
+}
+
+.border {
+    border-bottom: .3em solid #d82323;
+    margin: 3vw;
+}

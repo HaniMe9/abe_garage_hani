@@ -1,0 +1,56 @@
+.banner {
+    background: url('../../assets/Images/banner.jpg') no-repeat center center/cover;
+    padding: 5vw 12vw;
+    color: white;
+}
+
+.banner span {
+    color:  #d82323;
+}
+
+.banner h1 {
+    font-size: clamp(1.2em, 3vw, 2.8em);
+    margin: .3em 0 1em 0;
+    font-weight: bold;
+}
+
+.bannerButtons {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2vw;
+}
+
+.bannerButtons i {
+    font-size: clamp(2.8em, 10vw, 4.4em);
+    color:  #d82323;
+    cursor: pointer;
+}
+
+.bannerButtons i:hover {
+    color: white;
+}
+
+.banner p {
+    font-size: clamp(.8em, 3vw, 1.2em);
+    margin: 0;
+    font-weight: bold;
+}
+
+.bannerButtons p {
+    margin: 0 2em;
+}
+
+.appointment {
+    text-decoration: none;
+    padding: .5em 2em;
+    background-color: #d82323;
+    color: white;
+    font-size: clamp(.8em, 3vw, 1.2em);
+    font-weight: bold;
+    border-radius: .4em;
+}
+
+.appointment:hover {
+    background-color: white;
+    color: #d82323;
+}

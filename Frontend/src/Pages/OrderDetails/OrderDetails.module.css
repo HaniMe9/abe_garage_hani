@@ -1,0 +1,106 @@
+.orderDetailsContainer {
+  background-color: #E6E4E9;
+}
+
+.orderDetails {
+  padding: 3vw;
+}
+
+.orderDetails p {
+  font-size: clamp(.9em, 3vw, 1.1em);
+  margin: 0;
+}
+
+.orderDetails strong {
+  color: #07184A;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1vw;
+}
+
+.orderDetails h2 {
+  font-size: clamp(1.2em, 3vw, 1.8em);
+  font-weight: bold;
+  color: #07184A;
+}
+
+.header span {
+  color: #d82323;
+}
+
+.orderDetails h3 {
+  font-size: clamp(1.1em, 3vw, 1.4em);
+  font-weight: bold;
+  color: #07184A;
+  margin-bottom: 1vw;
+}
+
+.orderDetails h4 {
+  font-size: clamp(1em, 3vw, 1.2em);
+  font-weight: bold;
+  color: #07184A;
+  margin-bottom: 0;
+}
+
+.orderDetails h6 {
+  font-size: clamp(.6em, 3vw, .8em);
+  color: #07184A;
+  margin-bottom: 0;
+}
+
+.customerInfo, .vehicleInfo {
+  width: 100%;
+  background: white;
+  padding: 1em;
+  border-radius: .4em;
+  border-bottom: .4em solid #d82323;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.servicesSection {
+  background-color: white;
+  padding: 3vw;
+  border-radius: .4em;
+  border-bottom: .4em solid #d82323;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service {
+  padding: .5em;
+  margin: 1vw 0;
+  border-radius: .4em;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.service div {
+  overflow-wrap: break-word;
+}
+
+.status {
+  width: fit-content;
+  color: white;
+  border-radius: .3em;
+  padding: .1em .6em;
+}
+
+.statusCompleted {
+  background-color: green;
+}
+
+.statusInProgress {
+  background-color: #FEC008;
+}
+
+.statusReceived {
+  background-color: #57595c;
+}
+
+.noServices {
+  font-size: clamp(.9em, 3vw, 1.1em);
+  color: #d82323;
+}

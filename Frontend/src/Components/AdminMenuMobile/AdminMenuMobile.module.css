@@ -1,0 +1,38 @@
+.adminMenuContainer {
+    width: 100%;
+    background-color: #222A47;
+    color: #D6D7DE;
+}
+
+.adminMenuTitle {
+    background-color: #1D2230;
+    padding: 1vw;
+}
+
+.adminMenuTitle h2 {
+    font-size: clamp(1em, 3vw, 1.4em);
+    font-weight: bold;
+}
+
+.listGroup {
+    display: flex;
+    gap: 3vw;
+    padding: 1vw 3vw;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.listGroupMechanic {
+    display: flex;
+    gap: 5vw;
+    padding: 1vw 3vw;
+}
+
+.listGroupItem {
+    text-decoration: none;
+    color: #D6D7DE;
+    font-size: clamp(.9em, 3vw, 1.1em);
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}

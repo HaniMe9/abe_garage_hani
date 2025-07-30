@@ -1,0 +1,20 @@
+.mainBanner {
+    background: url('../../assets/Images/tire.jpg') no-repeat center center/cover;
+    padding: 5vw 10vw;
+    color: white;
+    margin-bottom: 3vw;
+}
+
+.bannerContent h1 {
+    font-size: clamp(1.3em, 3vw, 2.4em);
+    font-weight: bold;
+    margin-bottom: .1em;
+}
+
+.nav span {
+    font-size: clamp(.9em, 3vw, 1.1em);
+}
+
+.home {
+    color: #d82323;
+}

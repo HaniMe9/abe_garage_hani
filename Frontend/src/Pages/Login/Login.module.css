@@ -1,0 +1,146 @@
+.contactSection {
+  background-color:  #E6E4E9;
+  padding: 6em 1em;
+}
+
+.container {
+  max-width: 30em;
+  margin: 0 auto;
+  padding: 2vw;
+  background-color: white;
+  border-radius: .6em;
+  box-shadow: 0 .6em 1em rgba(0, 0, 0, 0.1);
+}
+
+.sectionTitle {
+  text-align: center;
+  margin-bottom: 2vw;
+}
+
+.sectionTitle h2 {
+  font-size: clamp(1.1em, 3vw, 1.8em);
+  color: #07184A;
+  font-weight: bold;
+}
+
+.sectionTitle span {
+  color:  #d82323;
+}
+
+.formContainer {
+  padding: 1em;
+}
+
+.formGroupContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.passwordContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.togglePassword {
+  position: absolute;
+  right: .5em;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: clamp(1em, 3vw, 1.4em);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formGroup input {
+  width: 100%;
+  padding: .5em .8em;
+  font-size: clamp(.9em, 3vw, 1.1em);
+  border: 1px solid #ccc;
+  border-radius: .4em;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.formGroup input::placeholder {
+  font-size: clamp(.9em, 3vw, 1.1em);
+}
+
+.formGroup input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.logInButton {
+  padding: .5em;  
+  background-color: #d82323;
+  color: white;
+  font-size: clamp(.9em, 3vw, 1.1em);
+  font-weight: bold;
+  border: none;
+  border-radius: .4em;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.logInButton:hover {
+  background-color: #07184A;
+}
+
+.error {
+  color: #d82323;
+  font-size: clamp(.9em, 3vw, 1.1em);
+}
+
+.popup {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .5em;
+}
+
+.icon {
+  font-size: clamp(.5em, 2vw, 1em);
+  margin: 0 auto;
+}
+
+.errorTitle {
+  font-size: clamp(1.2em, 3vw, 1.8em);
+  padding: 0;
+  color: #d82323;
+}
+
+.successTitle {
+  font-size: clamp(1.2em, 3vw, 1.8em);
+  padding: 0;
+  color: #A5DC86;
+}
+
+.text {
+  font-size: clamp(.9em, 3vw, 1.1em);
+  padding: 0;
+  font-weight: bold;
+}
+
+.confirmButton {
+  padding: .4em 3em;  
+  margin: 0;
+  background-color: #07184A;
+  color: white;
+  font-size: clamp(.9em, 3vw, 1.1em);
+  font-weight: bold;
+  border-radius: .4em;
+  cursor: pointer;
+}
+
+.confirmButton:hover {
+  background-color: #d82323;
+}

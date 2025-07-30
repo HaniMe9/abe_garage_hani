@@ -1,0 +1,101 @@
+.topBar {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: clamp(.7em, 3vw, 1.1em);
+    background-color: #07184A;
+}
+
+.leftTopBar {
+    display: flex;
+    align-items: center;
+}
+
+.tagline {
+    background-color: #d82323;
+    padding: 1em;
+}
+
+.workingHours {
+    padding: 1em;
+}
+
+.contactInfo {
+    padding: 1em;
+}
+
+.mainHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .4em 1em;
+}
+
+.mainHeader img {
+    width: clamp(10em, 20vw, 17em);
+}
+
+.navMenu {
+    display: flex;
+    align-items: center;
+}   
+
+.navMenu ul {
+    list-style: none;
+    align-items: center;
+    gap: 2vw;
+    margin-right: 2em;
+    padding-right: 2em;
+    border-right: 1px solid #ccc;
+    margin-top: .8em;
+}
+
+.navMenu ul a {
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    color: #07184A;
+}
+
+.signInButton {
+    text-decoration: none;
+    background-color: #d82323;
+    color: white;
+    border: none;
+    padding: .4em 1.5em;
+    cursor: pointer;
+    font-size: clamp(.6em, 4vw, 1em);
+    font-weight: bold;
+    border-radius: 6px;
+    margin-left: 0.5em;
+    box-shadow: 0 2px 8px rgba(216,35,35,0.08);
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+.signInButton:hover {
+    background-color: #07184A;
+    color: #fff;
+    box-shadow: 0 4px 16px rgba(7,24,74,0.12);
+}
+
+.registerButton {
+    text-decoration: none;
+    background-color: #fff;
+    color: #d82323;
+    border: 2px solid #d82323;
+    padding: .4em 1.5em;
+    cursor: pointer;
+    font-size: clamp(.6em, 4vw, 1em);
+    font-weight: bold;
+    border-radius: 6px;
+    margin-left: 0.5em;
+    transition: background 0.2s, color 0.2s, border 0.2s;
+    box-shadow: 0 2px 8px rgba(216,35,35,0.04);
+}
+
+.registerButton:hover {
+    background-color: #d82323;
+    color: #fff;
+    border: 2px solid #d82323;
+}
